@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=\"UTF-8\">
+  <title>Cyber Intelligence Interactive Map</title>
+  <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/jstree@3.3.12/dist/themes/default/style.min.css\" />
+  <script src=\"https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js\"></script>
+  <script src=\"https://cdn.jsdelivr.net/npm/jstree@3.3.12/dist/jstree.min.js\"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { font-size: 24px; margin-bottom: 10px; }
+    #jstree { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Cyber Intelligence Map</h1>
+  <div id=\"jstree\">
+    <ul>
+      <li>Clearweb Chinese OSINT Resources
+        <ul>
+          <li>Social Media
+            <ul>
+              <li><a href=\"https://tieba.baidu.com\" target=\"_blank\">百度贴吧 (Baidu Tieba)</a></li>
+              <li><a href=\"https://bilibili.com\" target=\"_blank\">哔哩哔哩 (Bilibili)</a></li>
+              <li><a href=\"https://douban.com\" target=\"_blank\">豆瓣 (Douban)</a></li>
+              <li><a href=\"https://douyin.com\" target=\"_blank\">抖音 (Douyin)</a></li>
+              <li><a href=\"https://zhihu.com\" target=\"_blank\">知乎 (Zhihu)</a></li>
+            </ul>
+          </li>
+          <li>Search Engines
+            <ul>
+              <li><a href=\"http://www.baidu.com/\" target=\"_blank\">Baidu</a></li>
+              <li><a href=\"https://baike.baidu.com/\" target=\"_blank\">Baidu Baike</a></li>
+            </ul>
+          </li>
+          <li>Mapping Tools
+            <ul>
+              <li><a href=\"https://map.baidu.com/\" target=\"_blank\">Baidu Maps</a></li>
+              <li><a href=\"https://map.qq.com/\" target=\"_blank\">Tencent Maps</a></li>
+            </ul>
+          </li>
+          <li>Cyber Research Tools
+            <ul>
+              <li><a href=\"https://en.fofa.info/\" target=\"_blank\">FOFA</a></li>
+              <li><a href=\"https://www.zoomeye.org/\" target=\"_blank\">ZoomEye</a></li>
+            </ul>
+          </li>
+          <li>Company Search
+            <ul>
+              <li><a href=\"https://www.qcc.com/\" target=\"_blank\">QCC</a></li>
+              <li><a href=\"https://tianyancha.com\" target=\"_blank\">Tianyancha</a></li>
+            </ul>
+          </li>
+          <li>Identity Search
+            <ul>
+              <li><a href=\"https://privacy.aiuys.com/\" target=\"_blank\">Privacy</a></li>
+            </ul>
+          </li>
+          <li>Phone Search
+            <ul>
+              <li><a href=\"https://haoma.baidu.com/query\" target=\"_blank\">Baidu Phone</a></li>
+            </ul>
+          </li>
+          <li>Educational Databases
+            <ul>
+              <li><a href=\"https://cnki.net\" target=\"_blank\">CNKI</a></li>
+            </ul>
+          </li>
+          <li>PRC Hacker News/Blogs
+            <ul>
+              <li><a href=\"https://www.52pojie.cn/\" target=\"_blank\">吾爱破解 - 52pojie</a></li>
+              <li><a href=\"https://www.anwangli.com/\" target=\"_blank\">暗网里 (Darkweb)</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Technical Concepts (Privacy & Security)
+        <ul>
+          <li>Encryption</li>
+          <li>Data Privacy</li>
+          <li>VPN</li>
+        </ul>
+      </li>
+      <li>Telegram
+        <ul>
+          <li>Telegram Account</li>
+          <li>Telegram Group</li>
+        </ul>
+      </li>
+      <li>Hacker Terms
+        <ul>
+          <li>Malware</li>
+          <li>Social Engineering</li>
+          <li>Penetration Testing</li>
+        </ul>
+      </li>
+      <li>OSINT Techniques & Tools
+        <ul>
+          <li>Data Mining</li>
+          <li>Geospatial Intelligence</li>
+          <li>Social Media Analysis</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <script>
+    $(function () { $('#jstree').jstree(); });
+  </script>
+</body>
+</html>
